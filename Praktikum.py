@@ -4,3 +4,5 @@ class Rectangle:
         self.l = l
 def keliling(self):
         return 2 * (self.p + self.l)
+    def luas(self):
+        return self.p * self.l

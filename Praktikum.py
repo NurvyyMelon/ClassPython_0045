@@ -16,3 +16,6 @@ while p <= 0:
     p = float(input("Masukkan panjang: "))
     # Input lebar
 l = float(input("Masukkan lebar: "))
+while l <= 0:
+    print("Lebar tidak boleh 0 atau negatif!")
+    l = float(input("Masukkan lebar: "))
